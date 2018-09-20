@@ -1,0 +1,512 @@
+@CHARSET "ISO-8859-1";
+
+@CHARSET "ISO-8859-1";
+
+
+
+
+/* -------------------- FORM CSS ----------------------------*/
+
+.form{
+	max-width:450px;
+	padding:30px;
+	margin:40px auto;
+	background: #000000;
+	border-radius: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+
+
+
+.form .input{
+	display: block;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 8px;
+	border-radius: 6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border: 2px solid #fff;
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+
+.form .submit
+{
+	background: #ffffff;
+	padding: 8px 20px 8px 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #000000;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+	font: normal 20px 'Bitter', serif;
+	-moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	border: 1px solid #c0c0c0;
+	
+}
+
+.form .submit :hover{
+	background: #808080;
+	-moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+}
+
+
+
+.select {
+        
+        -webkit-appearance: none;  Removes default chrome and safari style
+        -moz-appearance: none; Removes Default Firefox style
+        background: #FFF url(img/select-arrow.png) no-repeat 90% center;
+        width: 250px; Width of select dropdown to give space for arrow image
+        text-indent: 0.01px; Removes default arrow from firefox
+        text-overflow: "";  Removes default arrow from firefox My custom style for fonts
+        color: #000000;
+        border-radius: 30px;
+        padding: 10px;
+        box-shadow: inset 0 0 5px rgba(000,000,000, 0.5);
+}
+
+
+.key{
+	float:right;
+	color:#000000;
+	font: normal 20px 'Bitter', serif;
+}
+
+.select {
+        
+        -webkit-appearance: none;  /*Removes default chrome and safari style*/
+        -moz-appearance: none; /* Removes Default Firefox style*/
+        background: #FFF url(img/select-arrow.png) no-repeat 90% center;
+        width: 250px; /*Width of select dropdown to give space for arrow image*/
+        text-indent: 0.01px; /* Removes default arrow from firefox*/
+        text-overflow: "";  /*Removes default arrow from firefox*/ /*My custom style for fonts*/
+        color: #000000;
+        border-radius: 30px;
+        padding: 10px;
+        box-shadow: inset 0 0 5px rgba(000,000,000, 0.5);
+}
+
+.form{
+	font-family: 'Open Sans Condensed', arial, sans;
+	width: 600px;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+.form h1{
+	background: #4D4D4D;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+
+
+
+
+ 
+/* -------------------- FORMAT CSS ----------------------------*/
+
+
+h2{
+text-align:center;
+}
+
+.menu {
+	 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 580px;
+   
+}
+
+body{
+background-repeat:no-repeat;
+background-size:cover;
+background-color: #A9AFA9;
+text-align:center;
+}
+
+
+/* -------------------- BOOKING_TABLE CSS ----------------------------*/
+
+
+.booking {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.booking td, #booking th {
+    border: 1px solid #545151;
+    padding: 8px;
+}
+
+.booking tr:nth-child(even){
+	background-color: #D9D9D9;
+	}
+
+.booking tr:hover {
+	background-color: #3E913E;
+	}
+
+.booking th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #545151;
+    color: white;
+}
+
+
+/* -------------------- HOTEL_TABLE CSS ----------------------------*/
+
+.hotel {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.hotel td, .hotel th {
+    border: 1px solid #545151;
+    padding: 8px;
+}
+
+.hotel tr:nth-child(even){
+	background-color: #D9D9D9;
+	}
+
+.hotel tr:hover {
+	background-color: #2ECC40;
+	}
+
+.hotel th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #3D9970;
+    color: white;
+}
+
+/* -------------------- ROOM_TABLE CSS ----------------------------*/
+
+.room {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.room td, .room th {
+    border: 1px solid #545151;
+    padding: 8px;
+}
+
+.room tr:nth-child(even){
+	background-color: #D9D9D9;
+	}
+
+.room tr:hover {
+	background-color: #3E913E;
+	}
+
+.room th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #545151;
+    color: white;
+}
+
+/* -------------------- LOGIN CSS ----------------------------*/
+
+.login{
+	font-family: 'Open Sans Condensed', arial, sans;
+	width: 230px;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+.login h2{
+	background: #4D4D4D;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+
+.login .input
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+
+.login .submit{
+	-moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	background-color: #2CBBBB;
+	border: 1px solid #27A0A0;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.login .submit {
+	background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+	background-color:#34CACA;
+}
+
+/* -------------------- BUTTON CSS ----------------------------*/
+
+.button {
+	text-decoration: none;
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #545151;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+
+.button:hover {
+	background-color: #3E913E
+}
+
+.button:active {
+	background-color: #010101;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+
+/* -------------------- SMALL_BUTTON CSS ----------------------------*/
+.sbutton {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 9px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sbutton:hover {
+background-color: #c0c0c0;
+    color: #000000;
+}
+
+
+/* -------------------- HEADER CSS ----------------------------*/
+
+ .header h1{
+  padding: 15px 25px;
+  background-color: #545151;
+  color: #fff;
+  font-size: 24px;
+  }
+  
+   .header {
+  padding: 6px 10px;
+  background-color: #000000;
+  color: #fff;
+  font-size: 30px;
+  text-align:center;
+  }
+  
+  
+/* -------------------- FOOTER CSS ----------------------------*/
+.footer{
+  padding: 15px 25px;
+  background-color: #545151;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* -------------------- NAVIGATION BAR CSS ----------------------------*/
+
+
+.top{
+	position:fixed;
+	width:100%;
+	z-index:1;
+	top:0;
+}
+.below-top{
+	position:fixed;
+	width:100%;
+	z-index:1;
+	top:60px;
+}
+.bottom{
+	width:100%;
+	z-index:1;
+	bottom:0;
+}
+
+.nav-bar{
+	width:100%;
+	overflow:hidden;
+	color:#fff!important;
+	background-color:#000!important;
+	/*padding:12px 24px!important;*/
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+
+
+.nav-button {
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #000;
+	border: none;
+	padding: 15px 25px;
+}
+.nav-button:hover{
+	color:#000!important;
+	background-color:#ccc!important
+	}
+
+.nav-bar .nav-bar-item{
+	padding:8px 16px;
+	float:left;
+	width:auto;
+	border:none;
+	display:block;
+	outline:0
+	}
+
+.nav-bar .right{
+	float:right!important;
+}
+
+
+/* -------------------- MENU CSS ----------------------------*/
+
+ .layout{
+        float:left;
+        width:100%;
+        width:31%;
+        margin-bottom:16px!important;
+        
+        }
+.row-padding>.layout{
+        padding:0 8px;
+        }
+        
+ .hover-opacity:hover{
+ opacity:0.40
+ }
+        
+ .row-padding:after,.row-padding:before{
+        content:"";
+        display:table;
+        clear:both;
+        padding:0 8px;
+}
+        
+.padding-32{
+	padding-top:32px!important;
+	padding-bottom:32px!important;
+	}
+.padding-64{
+	padding-top:64px!important;
+	padding-bottom:64px!important;
+	}
+.container{
+	padding:0.01em 16px;
+    margin-left: auto;
+    margin-right: auto;
+	}
+.background-theme {
+	background-image: url("/WebContent/view/images/pixels.jpeg");
+}    
+
+        
+.content{
+	max-width:980px;
+	margin:auto;
+}
+        
+.black{color:#fff!important;background-color:#000!important}
+ 
+        
+.white{color:#000!important;background-color:#fff!important}
+
+/*--------------  slider-controller  -------------------*/
+.home{
+	text-align: center;
+}
+
+
+.slider-controller {
+	max-width: 800px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mySlides{
+	padding-top: 80px;
+	width: 100%;
+	height: 100%;
+}
+
+/*-------------------   Messages  ------------------------*/
+
+/* error message */
+h4{
+	color: #ff0000;
+}
